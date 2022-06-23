@@ -1,0 +1,152 @@
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG    faker.factory:factory.py:88 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:109 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:109 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:109 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:109 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:109 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:13161/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--start-maximized"]}}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): localhost:13161
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:13161 "POST /session HTTP/1.1" 200 789
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"102.0.5005.115","chrome":{"chromedriverVersion":"102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819})","userDataDir":"C:\\Users\\20256\\AppData\\Local\\Temp\\scoped_dir3344_454618626"},"goog:chromeOptions":{"debuggerAddress":"localhost:13164"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"cbcceeaa2b23ec4e7248f387e4781948"}} | headers=HTTPHeaderDict({'Content-Length': '789', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:43 加载浏览器驱动：Chrome
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:13161/session/cbcceeaa2b23ec4e7248f387e4781948/timeouts {"implicit": 30000}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:13161 "POST /session/cbcceeaa2b23ec4e7248f387e4781948/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:decorators.py:23 用例（test_chaxun_pope）执行时间：2022-06-23 19:55:02.399005
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('xpath', "//div[@id='accordion']/div/div/div")
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:13161/session/cbcceeaa2b23ec4e7248f387e4781948/element {"using": "xpath", "value": "//div[@id='accordion']/div/div/div"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:13161 "POST /session/cbcceeaa2b23ec4e7248f387e4781948/element HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:13161/session/cbcceeaa2b23ec4e7248f387e4781948/element {"using": "xpath", "value": "//div[@id='accordion']/div/div/div"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:13161 "POST /session/cbcceeaa2b23ec4e7248f387e4781948/element HTTP/1.1" 404 940
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=404 | data={"value":{"error":"no such window","message":"no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=102.0.5005.115)","stacktrace":"Backtrace:\n\tOrdinal0 [0x0115D953+2414931]\n\tOrdinal0 [0x010EF5E1+1963489]\n\tOrdinal0 [0x00FDC6B8+837304]\n\tOrdinal0 [0x00FC4120+737568]\n\tOrdinal0 [0x01026E29+1142313]\n\tOrdinal0 [0x01033FB2+1195954]\n\tOrdinal0 [0x010242B6+1131190]\n\tOrdinal0 [0x00FFE860+976992]\n\tOrdinal0 [0x00FFF756+980822]\n\tGetHandleVerifier [0x013CCC62+2510274]\n\tGetHandleVerifier [0x013BF760+2455744]\n\tGetHandleVerifier [0x011EEABA+551962]\n\tGetHandleVerifier [0x011ED916+547446]\n\tOrdinal0 [0x010F5F3B+1990459]\n\tOrdinal0 [0x010FA898+2009240]\n\tOrdinal0 [0x010FA985+2009477]\n\tOrdinal0 [0x01103AD1+2046673]\n\tBaseThreadInitThunk [0x75D2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x774D7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x774D7A6E+238]\n"}} | headers=HTTPHeaderDict({'Content-Length': '940', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+ERROR    utils.loggers:driver_base.py:68 定位 ('xpath', "//div[@id='accordion']/div/div/div") 失败，错误信息：Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0115D953+2414931]
+	Ordinal0 [0x010EF5E1+1963489]
+	Ordinal0 [0x00FDC6B8+837304]
+	Ordinal0 [0x00FC4120+737568]
+	Ordinal0 [0x01026E29+1142313]
+	Ordinal0 [0x01033FB2+1195954]
+	Ordinal0 [0x010242B6+1131190]
+	Ordinal0 [0x00FFE860+976992]
+	Ordinal0 [0x00FFF756+980822]
+	GetHandleVerifier [0x013CCC62+2510274]
+	GetHandleVerifier [0x013BF760+2455744]
+	GetHandleVerifier [0x011EEABA+551962]
+	GetHandleVerifier [0x011ED916+547446]
+	Ordinal0 [0x010F5F3B+1990459]
+	Ordinal0 [0x010FA898+2009240]
+	Ordinal0 [0x010FA985+2009477]
+	Ordinal0 [0x01103AD1+2046673]
+	BaseThreadInitThunk [0x75D2FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x774D7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x774D7A6E+238]
+
+WARNING  utils.loggers:driver_base.py:70 正在重试，当前重试次数：0，总数：1
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('xpath', "//div[@id='accordion']/div/div/div")
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:13161/session/cbcceeaa2b23ec4e7248f387e4781948/element {"using": "xpath", "value": "//div[@id='accordion']/div/div/div"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:13161 "POST /session/cbcceeaa2b23ec4e7248f387e4781948/element HTTP/1.1" 404 940
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=404 | data={"value":{"error":"no such window","message":"no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=102.0.5005.115)","stacktrace":"Backtrace:\n\tOrdinal0 [0x0115D953+2414931]\n\tOrdinal0 [0x010EF5E1+1963489]\n\tOrdinal0 [0x00FDC6B8+837304]\n\tOrdinal0 [0x00FC4120+737568]\n\tOrdinal0 [0x01026E29+1142313]\n\tOrdinal0 [0x01033FB2+1195954]\n\tOrdinal0 [0x010242B6+1131190]\n\tOrdinal0 [0x00FFE860+976992]\n\tOrdinal0 [0x00FFF756+980822]\n\tGetHandleVerifier [0x013CCC62+2510274]\n\tGetHandleVerifier [0x013BF760+2455744]\n\tGetHandleVerifier [0x011EEABA+551962]\n\tGetHandleVerifier [0x011ED916+547446]\n\tOrdinal0 [0x010F5F3B+1990459]\n\tOrdinal0 [0x010FA898+2009240]\n\tOrdinal0 [0x010FA985+2009477]\n\tOrdinal0 [0x01103AD1+2046673]\n\tBaseThreadInitThunk [0x75D2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x774D7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x774D7A6E+238]\n"}} | headers=HTTPHeaderDict({'Content-Length': '940', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+ERROR    utils.loggers:driver_base.py:68 定位 ('xpath', "//div[@id='accordion']/div/div/div") 失败，错误信息：Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0115D953+2414931]
+	Ordinal0 [0x010EF5E1+1963489]
+	Ordinal0 [0x00FDC6B8+837304]
+	Ordinal0 [0x00FC4120+737568]
+	Ordinal0 [0x01026E29+1142313]
+	Ordinal0 [0x01033FB2+1195954]
+	Ordinal0 [0x010242B6+1131190]
+	Ordinal0 [0x00FFE860+976992]
+	Ordinal0 [0x00FFF756+980822]
+	GetHandleVerifier [0x013CCC62+2510274]
+	GetHandleVerifier [0x013BF760+2455744]
+	GetHandleVerifier [0x011EEABA+551962]
+	GetHandleVerifier [0x011ED916+547446]
+	Ordinal0 [0x010F5F3B+1990459]
+	Ordinal0 [0x010FA898+2009240]
+	Ordinal0 [0x010FA985+2009477]
+	Ordinal0 [0x01103AD1+2046673]
+	BaseThreadInitThunk [0x75D2FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x774D7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x774D7A6E+238]
+
+ERROR    utils.loggers:decorators.py:28 用例（test_chaxun_pope）执行失败，错误信息：定位 ('xpath', "//div[@id='accordion']/div/div/div") 失败，错误信息：Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0115D953+2414931]
+	Ordinal0 [0x010EF5E1+1963489]
+	Ordinal0 [0x00FDC6B8+837304]
+	Ordinal0 [0x00FC4120+737568]
+	Ordinal0 [0x01026E29+1142313]
+	Ordinal0 [0x01033FB2+1195954]
+	Ordinal0 [0x010242B6+1131190]
+	Ordinal0 [0x00FFE860+976992]
+	Ordinal0 [0x00FFF756+980822]
+	GetHandleVerifier [0x013CCC62+2510274]
+	GetHandleVerifier [0x013BF760+2455744]
+	GetHandleVerifier [0x011EEABA+551962]
+	GetHandleVerifier [0x011ED916+547446]
+	Ordinal0 [0x010F5F3B+1990459]
+	Ordinal0 [0x010FA898+2009240]
+	Ordinal0 [0x010FA985+2009477]
+	Ordinal0 [0x01103AD1+2046673]
+	BaseThreadInitThunk [0x75D2FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x774D7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x774D7A6E+238]
+
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 GET http://localhost:13161/session/cbcceeaa2b23ec4e7248f387e4781948/screenshot {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:13161 "GET /session/cbcceeaa2b23ec4e7248f387e4781948/screenshot HTTP/1.1" 404 940
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=404 | data={"value":{"error":"no such window","message":"no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=102.0.5005.115)","stacktrace":"Backtrace:\n\tOrdinal0 [0x0115D953+2414931]\n\tOrdinal0 [0x010EF5E1+1963489]\n\tOrdinal0 [0x00FDC6B8+837304]\n\tOrdinal0 [0x00FC4120+737568]\n\tOrdinal0 [0x01026E29+1142313]\n\tOrdinal0 [0x01033FB2+1195954]\n\tOrdinal0 [0x010242B6+1131190]\n\tOrdinal0 [0x00FFE860+976992]\n\tOrdinal0 [0x00FFF756+980822]\n\tGetHandleVerifier [0x013CCC62+2510274]\n\tGetHandleVerifier [0x013BF760+2455744]\n\tGetHandleVerifier [0x011EEABA+551962]\n\tGetHandleVerifier [0x011ED916+547446]\n\tOrdinal0 [0x010F5F3B+1990459]\n\tOrdinal0 [0x010FA898+2009240]\n\tOrdinal0 [0x010FA985+2009477]\n\tOrdinal0 [0x01103AD1+2046673]\n\tBaseThreadInitThunk [0x75D2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x774D7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x774D7A6E+238]\n"}} | headers=HTTPHeaderDict({'Content-Length': '940', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 DELETE http://localhost:13161/session/cbcceeaa2b23ec4e7248f387e4781948 {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:13161 "DELETE /session/cbcceeaa2b23ec4e7248f387e4781948 HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:307 退出浏览器

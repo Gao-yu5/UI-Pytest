@@ -1,0 +1,39 @@
+---
+tests:
+  - username: 'admir'
+    password: '1234'
+chaxun:
+  - guke: '4396'
+chaxun1:
+  - pope: '1001239'
+chaxun2:
+  - yaop: '1000007667'
+luru:
+  - ida: '25'
+    name: "小强"
+    age:  "15"
+    tele: "15716234578"
+    poper:  "1000055"
+    time: '2012-9-8'
+    med:  "1000007667"
+    address:  "地址无"
+    dale: '症状无'
+    bei:  '备注无'
+luru_pope:
+  - ide:  '25'
+    name: '襄王'
+    tele: '15712345678'
+    bz: "备注无"
+luru_yaop:
+  - ide: '157877'
+    name: '当归'
+    neng: '可以无敌'
+xiugai_guke:
+  - pope: "4396"
+    name: "向往"
+xiugai_pope:
+  - pope: "1000055"
+    name: '小平'
+yonghu:
+  - use:  "xiao"
+    passwo: "123455"

@@ -1,0 +1,126 @@
+{
+  "uid" : "9a1e28d8abe4291e",
+  "name" : "test_chaxun_yaop[yaop0]",
+  "fullName" : "test_scripts.test_2_chaxun.TestchaxunPage#test_chaxun_yaop",
+  "historyId" : "a1286a148c347eeeb52510bc9c7b4332",
+  "time" : {
+    "start" : 1655984596974,
+    "stop" : 1655984601665,
+    "duration" : 4691
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1655984576451,
+      "stop" : 1655984577719,
+      "duration" : 1268
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1655984576262,
+      "stop" : 1655984576450,
+      "duration" : 188
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6131b2246c732bc9",
+      "name" : "log",
+      "source" : "6131b2246c732bc9.txt",
+      "type" : "text/plain",
+      "size" : 170453
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1655984780153,
+      "stop" : 1655984782367,
+      "duration" : 2214
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "信息查询"
+  }, {
+    "name" : "story",
+    "value" : "药品查询界面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_2_chaxun"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestchaxunPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0MDPAC41"
+  }, {
+    "name" : "thread",
+    "value" : "22600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_2_chaxun"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "yaop",
+    "value" : "('1000007667',)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a1e28d8abe4291e.json",
+  "parameterValues" : [ "('1000007667',)" ]
+}

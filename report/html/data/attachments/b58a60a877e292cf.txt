@@ -1,0 +1,103 @@
+DEBUG    utils.loggers:decorators.py:23 用例（test_luru_pope）执行时间：2022-06-23 19:43:36.103480
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('xpath', "//*[@id='accordion']/div[2]/div[1]/div[1]")
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element {"using": "xpath", "value": "//*[@id='accordion']/div[2]/div[1]/div[1]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"750d1d85-f7bc-40b9-a06c-0be9a8ab6576"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:83 点击按钮
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/750d1d85-f7bc-40b9-a06c-0be9a8ab6576/click {"id": "750d1d85-f7bc-40b9-a06c-0be9a8ab6576"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/750d1d85-f7bc-40b9-a06c-0be9a8ab6576/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('xpath', "//*[@id='EC']/a[2]/span/span[1]")
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element {"using": "xpath", "value": "//*[@id='EC']/a[2]/span/span[1]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"d1318b67-c861-4738-9aa2-409271bb4d78"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:83 点击按钮
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/d1318b67-c861-4738-9aa2-409271bb4d78/click {"id": "d1318b67-c861-4738-9aa2-409271bb4d78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/d1318b67-c861-4738-9aa2-409271bb4d78/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('xpath', '//*[@id="EAMform"]/div[1]/span[1]/input[1]')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element {"using": "xpath", "value": "//*[@id=\"EAMform\"]/div[1]/span[1]/input[1]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"d739ec98-7b22-41f2-a6cf-1eec0c4e4878"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/d739ec98-7b22-41f2-a6cf-1eec0c4e4878/clear {"id": "d739ec98-7b22-41f2-a6cf-1eec0c4e4878"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/d739ec98-7b22-41f2-a6cf-1eec0c4e4878/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/d739ec98-7b22-41f2-a6cf-1eec0c4e4878/value {"text": "25", "value": ["2", "5"], "id": "d739ec98-7b22-41f2-a6cf-1eec0c4e4878"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/d739ec98-7b22-41f2-a6cf-1eec0c4e4878/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:98 输入值：25
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('xpath', "(//input[@type='text'])[2]")
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element {"using": "xpath", "value": "(//input[@type='text'])[2]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"376947a6-47c1-4424-b441-6bd0f0c33b2e"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/376947a6-47c1-4424-b441-6bd0f0c33b2e/clear {"id": "376947a6-47c1-4424-b441-6bd0f0c33b2e"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/376947a6-47c1-4424-b441-6bd0f0c33b2e/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/376947a6-47c1-4424-b441-6bd0f0c33b2e/value {"text": "\u8944\u738b", "value": ["\u8944", "\u738b"], "id": "376947a6-47c1-4424-b441-6bd0f0c33b2e"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/376947a6-47c1-4424-b441-6bd0f0c33b2e/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:98 输入值：襄王
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('xpath', '//*[@id="EAMform"]/div[2]/span[2]/input[1]')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element {"using": "xpath", "value": "//*[@id=\"EAMform\"]/div[2]/span[2]/input[1]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"0de2c337-2c1c-4a1f-b481-b5673deb7e21"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/0de2c337-2c1c-4a1f-b481-b5673deb7e21/clear {"id": "0de2c337-2c1c-4a1f-b481-b5673deb7e21"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/0de2c337-2c1c-4a1f-b481-b5673deb7e21/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/0de2c337-2c1c-4a1f-b481-b5673deb7e21/value {"text": "15712345678", "value": ["1", "5", "7", "1", "2", "3", "4", "5", "6", "7", "8"], "id": "0de2c337-2c1c-4a1f-b481-b5673deb7e21"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/0de2c337-2c1c-4a1f-b481-b5673deb7e21/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:98 输入值：15712345678
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('xpath', '//*[@id="EAMform"]/div[3]/span/textarea')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element {"using": "xpath", "value": "//*[@id=\"EAMform\"]/div[3]/span/textarea"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"3bd3cf58-3afb-4559-86a9-ffafb14107bb"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/3bd3cf58-3afb-4559-86a9-ffafb14107bb/clear {"id": "3bd3cf58-3afb-4559-86a9-ffafb14107bb"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/3bd3cf58-3afb-4559-86a9-ffafb14107bb/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/3bd3cf58-3afb-4559-86a9-ffafb14107bb/value {"text": "\u5907\u6ce8\u65e0", "value": ["\u5907", "\u6ce8", "\u65e0"], "id": "3bd3cf58-3afb-4559-86a9-ffafb14107bb"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/3bd3cf58-3afb-4559-86a9-ffafb14107bb/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:98 输入值：备注无
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('xpath', "//h1[contains(.,'录入')]")
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element {"using": "xpath", "value": "//h1[contains(.,'\u5f55\u5165')]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"4ee11dde-93b5-4fc0-95ec-ee83fa10b05d"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:83 点击按钮
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/4ee11dde-93b5-4fc0-95ec-ee83fa10b05d/click {"id": "4ee11dde-93b5-4fc0-95ec-ee83fa10b05d"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/4ee11dde-93b5-4fc0-95ec-ee83fa10b05d/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('xpath', "//a[contains(.,'确定')]")
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element {"using": "xpath", "value": "//a[contains(.,'\u786e\u5b9a')]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"c38e4d86-fb4f-44f3-9125-b7fc95a52a0e"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:83 点击按钮
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/c38e4d86-fb4f-44f3-9125-b7fc95a52a0e/click {"id": "c38e4d86-fb4f-44f3-9125-b7fc95a52a0e"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/c38e4d86-fb4f-44f3-9125-b7fc95a52a0e/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/refresh {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/refresh HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:168 网页刷新
+DEBUG    utils.loggers:decorators.py:34 用例（test_luru_pope）结束时间：2022-06-23 19:43:36.103480，耗时：8.847568s

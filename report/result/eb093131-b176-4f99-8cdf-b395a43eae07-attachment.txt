@@ -1,0 +1,98 @@
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG    faker.factory:factory.py:88 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:109 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:109 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:109 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:109 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:78 Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG    faker.factory:factory.py:97 Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:109 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--start-maximized"]}}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): localhost:12274
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session HTTP/1.1" 200 790
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"102.0.5005.115","chrome":{"chromedriverVersion":"102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819})","userDataDir":"C:\\Users\\20256\\AppData\\Local\\Temp\\scoped_dir8132_1185119889"},"goog:chromeOptions":{"debuggerAddress":"localhost:12277"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"729a66a50d0826e711cc1066ba6d4cbf"}} | headers=HTTPHeaderDict({'Content-Length': '790', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:43 加载浏览器驱动：Chrome
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/timeouts {"implicit": 30000}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/timeouts HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:decorators.py:23 用例（test_login）执行时间：2022-06-23 19:42:57.722236
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/url {"url": "http://47.111.8.42:8080/mms/login.html"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:236 打开网址：http://47.111.8.42:8080/mms/login.html
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('id', 'username')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element {"using": "css selector", "value": "[id=\"username\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"7a76b92e-223f-4eea-a05b-5f124666b44f"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/7a76b92e-223f-4eea-a05b-5f124666b44f/clear {"id": "7a76b92e-223f-4eea-a05b-5f124666b44f"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/7a76b92e-223f-4eea-a05b-5f124666b44f/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/7a76b92e-223f-4eea-a05b-5f124666b44f/value {"text": "admir", "value": ["a", "d", "m", "i", "r"], "id": "7a76b92e-223f-4eea-a05b-5f124666b44f"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/7a76b92e-223f-4eea-a05b-5f124666b44f/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:98 输入值：admir
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('id', 'password')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element {"using": "css selector", "value": "[id=\"password\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"9143fc8b-cdd0-4e60-82ed-5c3c00070de8"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/9143fc8b-cdd0-4e60-82ed-5c3c00070de8/clear {"id": "9143fc8b-cdd0-4e60-82ed-5c3c00070de8"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/9143fc8b-cdd0-4e60-82ed-5c3c00070de8/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/9143fc8b-cdd0-4e60-82ed-5c3c00070de8/value {"text": "1234", "value": ["1", "2", "3", "4"], "id": "9143fc8b-cdd0-4e60-82ed-5c3c00070de8"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/9143fc8b-cdd0-4e60-82ed-5c3c00070de8/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:98 输入值：1234
+DEBUG    utils.loggers:driver_base.py:60 定位元素：('xpath', '/html/body/div[1]/div[1]/div/input')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element {"using": "xpath", "value": "/html/body/div[1]/div[1]/div/input"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"d0fbd792-60c8-4747-a2d3-30e9ed1dfaec"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:driver_base.py:83 点击按钮
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/element/d0fbd792-60c8-4747-a2d3-30e9ed1dfaec/click {"id": "d0fbd792-60c8-4747-a2d3-30e9ed1dfaec"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "POST /session/729a66a50d0826e711cc1066ba6d4cbf/element/d0fbd792-60c8-4747-a2d3-30e9ed1dfaec/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:361 GET http://localhost:12274/session/729a66a50d0826e711cc1066ba6d4cbf/url {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:12274 "GET /session/729a66a50d0826e711cc1066ba6d4cbf/url HTTP/1.1" 200 54
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":"http://47.111.8.42:8080/mms/mms/index.html"} | headers=HTTPHeaderDict({'Content-Length': '54', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+DEBUG    utils.loggers:decorators.py:34 用例（test_login）结束时间：2022-06-23 19:42:57.722236，耗时：8.619902s

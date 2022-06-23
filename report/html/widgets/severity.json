@@ -1,0 +1,111 @@
+[ {
+  "uid" : "8d213e129bf400ac",
+  "name" : "test_login[admir-1234]",
+  "time" : {
+    "start" : 1655984577721,
+    "stop" : 1655984586342,
+    "duration" : 8621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af4c89d16ab63df4",
+  "name" : "test_shanchu_pope",
+  "time" : {
+    "start" : 1655984638252,
+    "stop" : 1655984651168,
+    "duration" : 12916
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a1e28d8abe4291e",
+  "name" : "test_chaxun_yaop[yaop0]",
+  "time" : {
+    "start" : 1655984596974,
+    "stop" : 1655984601665,
+    "duration" : 4691
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3e23db6d059623b",
+  "name" : "test_chaxun_pope[pope0]",
+  "time" : {
+    "start" : 1655984591195,
+    "stop" : 1655984596968,
+    "duration" : 5773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abc617b1f60e22d6",
+  "name" : "test_luru_pope[25-襄王-15712345678-备注无]",
+  "time" : {
+    "start" : 1655984616103,
+    "stop" : 1655984624951,
+    "duration" : 8848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1bccb02a0e248dc",
+  "name" : "test_liulan_guke",
+  "time" : {
+    "start" : 1655984713530,
+    "stop" : 1655984780153,
+    "duration" : 66623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "669a917ff18dcba0",
+  "name" : "test_shanchu_yaop",
+  "time" : {
+    "start" : 1655984651173,
+    "stop" : 1655984713525,
+    "duration" : 62352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "190f694145c158ed",
+  "name" : "test_luru_yaop[157877-当归-可以无敌]",
+  "time" : {
+    "start" : 1655984624960,
+    "stop" : 1655984632697,
+    "duration" : 7737
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a786b00539fe711",
+  "name" : "test_chaxun_guke[guke0]",
+  "time" : {
+    "start" : 1655984586347,
+    "stop" : 1655984591189,
+    "duration" : 4842
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3706dafdeaeaa7b",
+  "name" : "test_luru_guke[25-小强-15-15716234578-1000055-2012-9-8-1000007667-地址无-症状无-备注无]",
+  "time" : {
+    "start" : 1655984601671,
+    "stop" : 1655984616086,
+    "duration" : 14415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18d9d18e1b364c22",
+  "name" : "test_shanchu_guke",
+  "time" : {
+    "start" : 1655984632705,
+    "stop" : 1655984638246,
+    "duration" : 5541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

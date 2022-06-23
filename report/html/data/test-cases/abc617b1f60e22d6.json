@@ -1,0 +1,135 @@
+{
+  "uid" : "abc617b1f60e22d6",
+  "name" : "test_luru_pope[25-襄王-15712345678-备注无]",
+  "fullName" : "test_scripts.test_3_luru.Test_luru_Page#test_luru_pope",
+  "historyId" : "eaf5c4b70adc28fd350ba8809c5eeff0",
+  "time" : {
+    "start" : 1655984616103,
+    "stop" : 1655984624951,
+    "duration" : 8848
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1655984576451,
+      "stop" : 1655984577719,
+      "duration" : 1268
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1655984576262,
+      "stop" : 1655984576450,
+      "duration" : 188
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b58a60a877e292cf",
+      "name" : "log",
+      "source" : "b58a60a877e292cf.txt",
+      "type" : "text/plain",
+      "size" : 18409
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1655984780153,
+      "stop" : 1655984782367,
+      "duration" : 2214
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "录入顾客信息"
+  }, {
+    "name" : "story",
+    "value" : "录入经办人界面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_3_luru"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_luru_Page"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0MDPAC41"
+  }, {
+    "name" : "thread",
+    "value" : "22600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_3_luru"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "bz",
+    "value" : "'备注无'"
+  }, {
+    "name" : "ida",
+    "value" : "'25'"
+  }, {
+    "name" : "name",
+    "value" : "'襄王'"
+  }, {
+    "name" : "tele",
+    "value" : "'15712345678'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "abc617b1f60e22d6.json",
+  "parameterValues" : [ "'备注无'", "'25'", "'襄王'", "'15712345678'" ]
+}

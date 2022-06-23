@@ -1,0 +1,123 @@
+{
+  "uid" : "669a917ff18dcba0",
+  "name" : "test_shanchu_yaop",
+  "fullName" : "test_scripts.test_4_shanchu.Test_shanchuPage#test_shanchu_yaop",
+  "historyId" : "a5f97208ab2219870e219dd55589522e",
+  "time" : {
+    "start" : 1655984651173,
+    "stop" : 1655984713525,
+    "duration" : 62352
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1655984576451,
+      "stop" : 1655984577719,
+      "duration" : 1268
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1655984576262,
+      "stop" : 1655984576450,
+      "duration" : 188
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4b6b2baa4dae89ed",
+      "name" : "log",
+      "source" : "4b6b2baa4dae89ed.txt",
+      "type" : "text/plain",
+      "size" : 138739
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1655984780153,
+      "stop" : 1655984782367,
+      "duration" : 2214
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "删除顾客信息"
+  }, {
+    "name" : "story",
+    "value" : "删除药品界面测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_4_shanchu"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_shanchuPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0MDPAC41"
+  }, {
+    "name" : "thread",
+    "value" : "22600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_4_shanchu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "669a917ff18dcba0.json",
+  "parameterValues" : [ ]
+}
